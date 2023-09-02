@@ -23,7 +23,8 @@ void mid(int a[],int b[],int f[])
     {
         printf("%f ",fx[i]);
     }
-    printf("sum of fx:\n%f",f2);
+    printf("\nsum of fx:%f",f2);
+    printf("\nResult:%f",f2/f1);
 }
 int main()
 {
