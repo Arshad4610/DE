@@ -9,7 +9,7 @@ int main()
     scanf("%d",&b);
     int k=n/b;
     int l[k][b];
-    float mean[b];
+    float mean[k];
     for(int i=0;i<k;i++){
         for(int j=0;j<b;j++){
             scanf("%d",&l[i][j]);
